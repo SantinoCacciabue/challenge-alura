@@ -26,6 +26,7 @@ function sortearAmigo(){
         resultado.textContent = `El ganador del sorteo es ${amigos[random]}`;
         setTimeout(()=>{
         resultado.textContent = "";
+        amigos = [];
     },3000);
     }
     else{
